@@ -1,0 +1,59 @@
+//VARIABLES
+
+@import"../base/variables";
+
+//FOOTER
+
+/*FOOTER*/
+
+.footer{
+    background-color: nth($color,3);
+    padding-bottom: 0;
+    display: flex;
+
+    h4{
+        font-size: 20px;
+        font-family: nth($fuentes,1);
+        text-decoration: underline;
+        text-decoration-color: nth($color,4);
+        margin-bottom: 0.2em;
+        margin-left: 0.8em;
+        color: nth($color,1);
+    }
+
+    .redes li a{
+        text-decoration: none;
+        color: nth($color,2);
+        margin-top:0.3em ;
+        font-size: 15px;
+        margin-left: 1em;
+        font-family: nth($fuentes,1);
+        color:  nth($color,1);
+
+        &:hover{
+            text-decoration: underline;
+            text-decoration-color: nth($color,4) ;
+            transition: all 0.5s;
+        }
+    }
+
+    .menuPagina li a{
+        text-decoration: none;
+        color: nth($color,2);
+        font-size: 15px;
+        margin-left: 10em;
+        font-family:  nth($fuentes,1);
+        color:  nth($color,1);
+        margin-top: 20px;
+
+        &:hover{
+            text-decoration: underline;
+            text-decoration-color:  nth($color,4);
+            transition: all 0.5s;
+        }
+    }
+
+     ul li{
+        list-style: none;
+    }
+}

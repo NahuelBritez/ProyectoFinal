@@ -1,0 +1,41 @@
+//Variables
+@import"../base/variables";
+
+//HABILIDADES
+
+/*HABILIDADES*/
+
+#misHabilidades{
+    background-color: nth($color,1);
+    background-size: 5em;
+    padding: 3em 0 1em;
+     
+    h2{
+        font-size: 60px;
+        font-family: nth($fuentes,1);
+        margin-top: 1em;
+        padding-bottom: 1em;
+        display: block;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: nth($color,4);
+    }
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        font-family: nth($fuentes,2);
+
+        img{
+            height: 15em;
+            width: 15em;
+            border-radius: 1em;
+        }
+
+        p{
+            font-size: 1.5em;
+            text-decoration: underline;
+            text-decoration-color: nth($color,3);
+        }
+    }
+}

@@ -1,0 +1,44 @@
+//Variables
+@import"../base/variables";
+
+//MENU
+
+/*NAVMENU*/
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: nth($color,3);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:1;
+    height: 10%;
+
+     .logo{
+        text-decoration: none;
+        color: nth($color,1);
+        font-family: nth($fuentes,1);
+        padding-left: 10px;
+        padding-right: 25em;
+        font-size: 30px;
+    }
+
+    .navBoton{
+        text-decoration: none;
+        color: nth($color,1);
+        font-size: 1em;
+        margin-right: 1em;
+        padding: 0.5em;
+        font-family: nth($fuentes,1);  
+        display: inline-block;
+        
+        &:hover{
+            background-color: nth($color,4);
+            transform: scale(1.05);
+            transition: 0.3s;
+            border-radius: 0.5em;
+            
+        }
+    }
+}

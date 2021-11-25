@@ -1,0 +1,68 @@
+//VARIABLES
+
+@import"../base/variables";
+
+//CONTACTO
+
+/*CONTACTO*/
+
+#contacto{
+    background-color: nth($color,1);
+    padding: 2em 0 1.8em;
+
+    form{
+        width: 28em;
+        margin: auto;
+        padding:0.62em 1.25em;
+        box-sizing: border-box;
+        margin-top: 1.25em; 
+
+        h4{
+            text-decoration: underline;
+            text-decoration-color: nth($color,4);
+            color:black;
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 10px;
+            font-family: nth($fuentes,1);
+        }
+
+        textarea{
+            min-height: 6.25em;
+            max-height: 6.25em;
+            max-width: 100%;
+            min-width: 100%;
+        }
+
+        input,textarea {
+            background-color: nth($color,1);
+            width: 100%;
+            margin-bottom: 1.25em;
+            padding: 0.4em;
+            box-sizing: border-box;
+            border: none;
+            border-bottom:2px solid nth($color,4);  
+
+            &:focus{
+                transition: 0,5s;
+                border-color: nth($color,3);
+            }
+        }
+
+        
+
+        .boton{
+            background:nth($color,4);
+            color: nth($color,2);
+            padding: 1.25em 11.5em;
+            border: none;
+
+            &:hover{
+                cursor: pointer;
+                background-color:nth($color,3);
+                transition: 0.5s;              
+            }
+        }
+    }
+}

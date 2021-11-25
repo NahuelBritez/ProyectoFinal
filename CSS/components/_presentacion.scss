@@ -1,0 +1,33 @@
+//VARIABLES
+@import"../base/variables";
+
+//PRESENTACION
+
+#sobreMi{
+    background-color: nth($color,1);
+    padding: 3em 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 160px;
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+
+    h2{
+        font-size: 35px;
+        text-decoration: underline;
+        text-decoration-color: nth($color,4);
+        font-family: nth($fuentes,1);
+    }
+
+    p{
+        font-size: 20px;
+        text-align:justify;
+        font-family: nth($fuentes,2);
+        
+    }
+}

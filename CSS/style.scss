@@ -1,0 +1,18 @@
+//Estilo General
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+//Variables
+@import"./base/variables";
+
+//SECCIONES 
+@import"./components/header";
+@import"./base/navbar";
+@import"./components/presentacion";
+@import"./components/habilidades";
+@import"./components/proyectos";
+@import"./components/contacto";
+@import"./base/footer";
