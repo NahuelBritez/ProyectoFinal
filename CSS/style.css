@@ -4,6 +4,11 @@
   scroll-behavior: smooth;
 }
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 /*HEADER*/
 .header {
   background: #F9F9F9;
@@ -281,6 +286,10 @@
   background-color: #1484CD;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+#contacto form .boton input:focus, #contacto form .boton textarea:focus, #contacto form .boton select:focus {
+  outline: none;
 }
 
 /*FOOTER*/

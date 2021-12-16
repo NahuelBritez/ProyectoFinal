@@ -63,6 +63,10 @@
                 background-color:nth($color,3);
                 transition: 0.5s;              
             }
+
+            input:focus, textarea:focus, select:focus{
+                outline: none;
+            }
         }
     }
 }
