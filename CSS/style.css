@@ -329,26 +329,4 @@ html {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-
-.footer .menuPagina li a {
-  text-decoration: none;
-  color: #0B0B0B;
-  font-size: 15px;
-  margin-left: 10em;
-  font-family: "Nunito";
-  color: #F9F9F9;
-  margin-top: 20px;
-}
-
-.footer .menuPagina li a:hover {
-  text-decoration: underline;
-  -webkit-text-decoration-color: #CD772B;
-          text-decoration-color: #CD772B;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.footer ul li {
-  list-style: none;
-}
 /*# sourceMappingURL=style.css.map */
