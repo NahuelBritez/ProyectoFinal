@@ -19,6 +19,7 @@
         margin-bottom: 0.2em;
         margin-left: 0.8em;
         color: nth($color,1);
+        padding-top: 0.5em;
     }
 
     .redes li a{
@@ -37,23 +38,9 @@
         }
     }
 
-    .menuPagina li a{
-        text-decoration: none;
-        color: nth($color,2);
-        font-size: 15px;
-        margin-left: 10em;
-        font-family:  nth($fuentes,1);
-        color:  nth($color,1);
-        margin-top: 20px;
-
-        &:hover{
-            text-decoration: underline;
-            text-decoration-color:  nth($color,4);
-            transition: all 0.5s;
-        }
+     ul li {
+        list-style-type: none;
     }
 
-     ul li{
-        list-style: none;
-    }
+    
 }

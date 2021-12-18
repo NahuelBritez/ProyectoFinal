@@ -310,6 +310,7 @@ html {
   margin-bottom: 0.2em;
   margin-left: 0.8em;
   color: #F9F9F9;
+  padding-top: 0.5em;
 }
 
 .footer .redes li a {
@@ -328,5 +329,9 @@ html {
           text-decoration-color: #CD772B;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.footer ul li {
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */
